@@ -484,23 +484,30 @@ const questions = [
                         id: 3,
                         category: "entertainment",
                         difficulty: 3,
-                        question: "What is the auteur theory in filmmaking, and how does it impact the interpretation of a director's work?",
+                        question: "Discuss the role of streaming platforms in changing the landscape of television and film consumption. How have these platforms influenced content creation, viewer preferences, and the traditional TV and movie industry?",
                         choices: [
-                          "It's a theory that emphasizes the role of the producer in filmmaking.",
-                          "It's a theory that regards the director as the primary creative force in a film and examines their recurring themes and styles, influencing how their work is analyzed and appreciated.",
-                          "It's a theory that focuses on the role of the screenwriter in shaping a film's narrative.",
-                          "It's a theory that dismisses the influence of individual filmmakers, attributing all creative decisions to the studio."
+                          "Streaming platforms have had minimal impact on the entertainment industry.",
+                          "They have led to the resurgence of traditional television, with cable networks regaining dominance.",
+                          " Streaming platforms have transformed how people consume content, with a shift towards on-demand, personalized viewing experiences. This shift has also prompted increased investment in original programming by both traditional studios and streaming services.",
+                          "Streaming platforms have primarily affected the music industry, not television and film."
                         ],
-                        correctAnswer: 1
-                      }
-                      
-                      
-                      
-                      
-                      
-                      
-                      
+                        correctAnswer: 3
+                      },
 
+                      {
+                        id: 3,
+                        category: "entertainment",
+                        difficulty: 3,
+                        question: "How has the digital age influenced the gaming industry, particularly in the context of virtual reality (VR) technology, and what implications has it had for gameplay experiences?",
+                        choices: [
+                          "The digital age had no significant impact on the film industry.",
+                          "It led to the decline of traditional gaming due to the overuse of VR technology. Classic games remained dominant.",
+                          "It revolutionized the gaming industry by introducing advanced VR technology, enhancing immersive gameplay experiences, and opening up new possibilities in game design. It also raised challenges related to motion sickness and affordability.",
+                          "The digital age primarily affected the film industry, not gaming."
+                        ],
+                        correctAnswer: 3
+                      }
+                
                   ];
 
 function filteredQuestions (input, level){
