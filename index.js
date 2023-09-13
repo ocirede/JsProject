@@ -137,7 +137,76 @@ const questions = [
                         choices: ["Transpiration", "Respiration", "Condensation", "Photosynthesis"],
                         correctAnswer: 1
                       },
-                      
+
+                      {
+                        id: 1,
+                        category: "science",
+                        difficulty: 3,
+                        question: "What is the Heisenberg Uncertainty Principle, and how does it relate to quantum mechanics?",
+                        choices: [
+                          "It's a principle in thermodynamics. It states that energy cannot be created or destroyed.",
+                          "It's a principle in chemistry. It explains the behavior of gases at high pressures.",
+                          "It's a principle in quantum mechanics. It states that you cannot simultaneously know the exact position and momentum of a particle.",
+                          "It's a principle in relativity. It explains the bending of light in a gravitational field."
+                        ],
+                        correctAnswer: 3
+                      },
+
+                      {
+                        id: 1,
+                        category: "science",
+                        difficulty: 3,
+                        question: "What is the Higgs boson, and why is its discovery significant in the field of particle physics?",
+                        choices: [
+                          "It's a type of dark matter that makes up most of the universe's mass.",
+                          "It's a subatomic particle that gives other particles mass through the Higgs field. Its discovery confirmed the Standard Model of particle physics.",
+                          "It's a fundamental particle that carries the strong nuclear force responsible for holding atomic nuclei together.",
+                          "It's a theoretical particle that travels faster than the speed of light, challenging our understanding of physics."
+                        ],
+                        correctAnswer: 2
+                      },
+
+                      {
+                        id: 1,
+                        category: "science",
+                        difficulty: 3,
+                        question: "Explain the concept of Schrödinger's cat in quantum physics and the implications of the thought experiment.",
+                        choices: [
+                          "It's a cat that can predict the weather accurately.",
+                          "It's a cat that can see in the dark due to quantum vision.",
+                          "It's a thought experiment involving a cat in a sealed box with a radioactive atom. It illustrates the paradoxes of quantum superposition and measurement.",
+                          "It's a cat that can travel through time and space."
+                        ],
+                        correctAnswer: 3
+                      },
+
+                      {
+                        id: 1,
+                        category: "science",
+                        difficulty: 3,
+                        question: "What is the concept of quantum entanglement, and how does it challenge our understanding of particle physics?",
+                        choices: [
+                          "It's the idea that particles can communicate faster than the speed of light. It supports the theory of determinism.",
+                          "It's a phenomenon where particles become linked and share properties, regardless of distance. It challenges the classical concepts of locality and realism.",
+                          "It's a theory that explains how particles can exist in multiple places at the same time. It aligns with the concept of hidden variables.",
+                          "It's the idea that particles can tunnel through solid barriers, defying the laws of classical physics."
+                        ],
+                        correctAnswer: 2
+                      },
+
+                      {
+                        id: 1,
+                        category: "science",
+                        difficulty:3,
+                        question: "What is the Fermi Paradox, and what are some proposed solutions or explanations for it?",
+                        choices: [
+                          "It's the idea that aliens have visited Earth in the past. Proposed solutions include conspiracy theories.",
+                          "It's the question of why we haven't detected any signs of extraterrestrial civilizations, despite the vast number of stars and planets in the universe. Proposed explanations include the possibility of self-destruction or the existence of a cosmic 'zoo'.",
+                          "It's the concept that time travel is possible through wormholes. Proposed solutions include building time machines.",
+                          "It's the idea that the universe is constantly expanding. Proposed solutions include the Big Crunch theory."
+                        ],
+                        correctAnswer: 2
+                      },
 
                     { id: 2,
                       category: "history",
@@ -217,6 +286,75 @@ const questions = [
                       question: "Which war was fought between the North and South regions of the United States from 1861 to 1865?",
                       choices: ["The American Revolution", "The Civil War", "World War I", "The War of 1812"],
                       correctAnswer: 2
+                    },
+
+                    {
+                      id:2,
+                      category: "history",
+                      difficulty: 3,
+                      question: "What were the main causes and consequences of the Peloponnesian War in ancient Greece?",
+                      choices: [
+                        "It was a war over control of the Mediterranean Sea, leading to the rise of Alexander the Great.",
+                        "It was a conflict between Athens and Sparta caused by territorial disputes and power struggles, resulting in the decline of ancient Greece.",
+                        "It was a series of battles between Rome and Carthage, leading to the expansion of the Roman Empire.",
+                        "It was a war between Egypt and Persia, resulting in the establishment of the Persian Empire."
+                      ],
+                      correctAnswer: 2
+                    },
+
+                    {
+                      id: 2,
+                      category: "history",
+                      difficulty: 3,
+                      question: "Explain the impact of the Industrial Revolution on society, economy, and politics in the 18th and 19th centuries.",
+                      choices: [
+                        "It had no significant impact on any aspect of society.",
+                        "It led to the decline of industry and the rise of agriculture.",
+                        "It transformed society through urbanization, technological advancements, and the emergence of new economic and political ideologies.",
+                        "It primarily affected the arts and culture."
+                      ],
+                      correctAnswer: 3
+                    },
+
+                    {
+                      id:2,
+                      category: "history",
+                      difficulty: 3,
+                      question: "Discuss the major factors and consequences of the Cuban Missile Crisis during the Cold War.",
+                      choices: [
+                        "It was a diplomatic disagreement between the United States and France over the control of Cuba.",
+                        "It was a conflict between Cuba and the Soviet Union over missile technology, resulting in the Cuban Revolution.",
+                        "It was a standoff between the United States and the Soviet Union over the placement of nuclear missiles in Cuba, with potential global nuclear war as a consequence.",
+                        "It was a crisis caused by China's attempt to assert dominance in the Caribbean region."
+                      ],
+                      correctAnswer: 3
+                    },
+                    {
+                      id: 2,
+                      category: "history",
+                      difficulty: 3,
+                      question: "Examine the causes and consequences of the Treaty of Versailles following World War I.",
+                      choices: [
+                        "It was a treaty that led to the division of Germany into East and West. Its consequences included the rise of the European Union.",
+                        "It was a treaty that officially ended World War I. Its consequences included imposing harsh penalties on Germany, which contributed to economic hardship and the outbreak of World War II.",
+                        "It was a treaty that established the United Nations. Its consequences included the spread of democracy worldwide.",
+                        "It was a treaty that dissolved the Ottoman Empire. Its consequences included the establishment of Israel."
+                      ],
+                      correctAnswer: 2
+                    },
+
+                    {
+                      id: 2,
+                      category: "history",
+                      difficulty: 3,
+                      question: "Discuss the impact of the Renaissance period on art, culture, and science in Europe during the 14th to 17th centuries.",
+                      choices: [
+                        "It had no significant impact on any aspect of European society.",
+                        "It marked a period of isolationism and cultural stagnation in Europe.",
+                        "It was a period of rebirth and innovation, leading to advancements in art, literature, science, and philosophy, including the works of Leonardo da Vinci and Galileo Galilei.",
+                        "It primarily influenced politics and warfare in Europe."
+                      ],
+                      correctAnswer: 3
                     },
                     
                      { id: 3,
@@ -298,7 +436,65 @@ const questions = [
                         question: "Which actor played the iconic character James Bond in the film 'Casino Royale' (2006)?",
                         choices: ["Pierce Brosnan", "Daniel Craig", "Roger Moore", "Sean Connery"],
                         correctAnswer: 2
+                      },
+                      
+                      {
+                        id: 3,
+                        category: "entertainment",
+                        difficulty: 3,
+                        question: "In film history, what is the significance of the French New Wave movement, and who were some notable directors associated with it?",
+                        choices: [
+                          "It introduced the first 3D movies. Notable directors included Alfred Hitchcock and Cecil B. DeMille.",
+                          "It revolutionized cinema with innovative storytelling and filmmaking techniques. Notable directors included François Truffaut and Jean-Luc Godard.",
+                          "It marked the beginning of the Hollywood studio system. Notable directors included Orson Welles and Stanley Kubrick.",
+                          "It was a musical revolution in film, with directors like Steven Spielberg and George Lucas leading the way."
+                        ],
+                        correctAnswer: 2
+                      },
+
+                      {
+                        id: 3,
+                        category: "entertainment",
+                        difficulty:3,
+                        question: "What is the concept of auteur theory in filmmaking, and how does it influence the interpretation of a director's work?",
+                        choices: [
+                          "It's a theory that directors have no significant influence on the making of a film.",
+                          "It's a theory that emphasizes the role of the producer in filmmaking.",
+                          "It's a theory that regards the director as the primary creative force in a film and examines their recurring themes and styles.",
+                          "It's a theory that focuses on the role of the screenwriter in shaping a film's narrative."
+                        ],
+                        correctAnswer: 3
+                      },
+
+                      {
+                        id: 3,
+                        category: "entertainment",
+                        difficulty: 3,
+                        question: "What is the concept of method acting, and which famous actors are known for practicing it in their performances?",
+                        choices: [
+                          "It's a style of acting that relies on memorizing lines perfectly. Notable actors include Meryl Streep and Anthony Hopkins.",
+                          "It's a style of acting that emphasizes physical fitness and agility. Notable actors include Tom Cruise and Angelina Jolie.",
+                          "It's a style of acting that involves fully immersing oneself in a character's emotions and experiences. Notable actors include Marlon Brando and Daniel Day-Lewis.",
+                          "It's a style of acting that focuses on vocal techniques and diction. Notable actors include Morgan Freeman and Judi Dench."
+                        ],
+                        correctAnswer: 3
+                      },
+
+                      {
+                        id: 3,
+                        category: "entertainment",
+                        difficulty: 3,
+                        question: "What is the auteur theory in filmmaking, and how does it impact the interpretation of a director's work?",
+                        choices: [
+                          "It's a theory that emphasizes the role of the producer in filmmaking.",
+                          "It's a theory that regards the director as the primary creative force in a film and examines their recurring themes and styles, influencing how their work is analyzed and appreciated.",
+                          "It's a theory that focuses on the role of the screenwriter in shaping a film's narrative.",
+                          "It's a theory that dismisses the influence of individual filmmakers, attributing all creative decisions to the studio."
+                        ],
+                        correctAnswer: 1
                       }
+                      
+                      
                       
                       
                       
@@ -338,9 +534,9 @@ if(parseInt(answer) === chosenQuestions.correctAnswer){
   score++;
   console.log(`Correct!`)
   console.log();
-  if(selectedQuestion.length > 1){
-  console.log(`Your current score is: ${score}\n`)
-}}
+  }if(selectedQuestion.length > 1){
+    console.log(`Your current score is: ${score}\n`)
+  }
 
 else{
   console.log(`Wrong answer`)
