@@ -3,11 +3,7 @@ const colors = require(`colors`);
 const welcomeNote = "WELCOME TO OUR QUIZ GAME";
 const information = `Get ready to test your wits and explore a world of diverse topics. In this engaging game, we have gathered a wide array of intriguing categories,from science and history to entertainment and beyond. Your mission? Choose a category and prove your expertise by answering a series of challenging questions.With Categories of Knowledge, you'll embark on a journey of curiosity, learning,and fun. Sharpen your mind, expand your horizons, and compete with friends or challenge yourself to become a category master.Dive into the world of trivia and see how your knowledge stacks up across a variety of subjects. Categories of Knowledge is your passport to endless entertainment and a chance to discover something new every time you play.So, are you up for the challenge? Lets begin the quest for knowledge and fun`;
 
-<<<<<<< HEAD
 const gameIntroduction = `\n\n${welcomeNote.bold.brightYellow}\n\n${information.brightGreen}`;
-=======
-const gameIntroduction = `\n\n${welcomeNote.bold.green}\n\n${information.green}`;
->>>>>>> bb3c72f0e1d552236fdd4b3ac1973ffface7a4da
 
 const introduction = prompt(console.log(gameIntroduction));
 
@@ -27,17 +23,12 @@ function pickingDciStudent() {
     "Katada",
     "Garen",
     "Ghassan",
-<<<<<<< HEAD
-=======
-    "Ashraf",
->>>>>>> bb3c72f0e1d552236fdd4b3ac1973ffface7a4da
     "Alkis",
     "Jamilya",
   ];
 
   const randomIndex = Math.floor(Math.random() * students.length);
   const randomName = students[randomIndex];
-<<<<<<< HEAD
   console.log(`The chosen player for today is: ${randomName.bold.brightBlue}\n`);
 }
 let attempts = 0;
@@ -77,36 +68,13 @@ console.log();
   while (true) {
   console.clear();
   console.log("\x1b[32m\nAwesome! Let's get started. Good luck with your quiz game! Enjoy and have fun!\n\x1b[0m")
-=======
-  console.log(`The chosen player for today is: ${randomName.blue}\n`);
-}
 
-let findUser = colors.bold(colors.blue(prompt(`Let's write down your name: `)));
-console.log();
-// collecting user preference of game + while loop for reinititializing the function when required,e g: user wants to play 2nd round
-while (true) {
-  console.clear();
-  let question = prompt(
-    `Are you ready to play ${findUser}?: Y/N `
-  ).toLowerCase();
-  if (question === "n") {
-    console.log(`You are exiting the game`);
-    return;
-  } else if (question === "y") {
-    console.log(`\nGreat!! let's continue.`);
-  } else {
-    question = prompt(
-      `Invalid input, please ${findUser} press: Y/N `
-    ).toLowerCase();
-  }
 
->>>>>>> bb3c72f0e1d552236fdd4b3ac1973ffface7a4da
   const categories = ["Science", "History", "Entertainment\n"];
   const difficulties = ["Easy", "Medium", "Advanced"];
   // listing categories
   console.log("\n Please choose a category:\n");
   for (let i = 0; i < categories.length; i++) {
-<<<<<<< HEAD
     console.log(colors.brightCyan.italic(i + 1 + ".", categories[i]));
   }
   // collecting user's preffered categories
@@ -121,17 +89,11 @@ while (true) {
   console.log("Thank you for choosing Quiz-game, you are now exiting the game")
   return;
   }
-=======
-    console.log(colors.cyan.italic(i + 1 + ".", categories[i]));
-  }
-  // collecting user's preffered categories
-  const input = prompt(`Choose a category: `).toLowerCase();
->>>>>>> bb3c72f0e1d552236fdd4b3ac1973ffface7a4da
+
   console.log();
   //listing difficulty level
   console.log("\n Please choose a difficulty level:\n");
   for (let i = 0; i < difficulties.length; i++) {
-<<<<<<< HEAD
     console.log(colors.brightCyan.italic(i + 1 + ".", difficulties[i]));
   }
   console.log();
@@ -147,13 +109,7 @@ while (true) {
   console.log("Thank you for choosing Quiz-game, you are now exiting the game")
   return;
   }
-=======
-    console.log(colors.cyan.italic(i + 1 + ".", difficulties[i]));
-  }
-  console.log();
-  // collecting user's preffered difficulty level
-  const level = prompt(`Choose difficulty level: `).toLowerCase();
->>>>>>> bb3c72f0e1d552236fdd4b3ac1973ffface7a4da
+
   console.log();
   //qestioncollecting user's preffered categoriess database
   const questions = [
@@ -752,11 +708,7 @@ while (true) {
   while (selectedQuestion.length > 0) {
     count++;
     const chosenQuestions = randomizeQuestion();
-<<<<<<< HEAD
     console.log(`Question ${count}: ${chosenQuestions.question.underline.brightRed}`);
-=======
-    console.log(`Question ${count}: ${chosenQuestions.question.underline.red}`);
->>>>>>> bb3c72f0e1d552236fdd4b3ac1973ffface7a4da
     console.log();
     //display the options of choice and asking to answer from it(** choice is an array and forEach method works on array)
     if (chosenQuestions) {
@@ -781,11 +733,8 @@ while (true) {
       );
     }
     // setting a message to print until the last question appears(after last question we do not need this message)
-<<<<<<< HEAD
     if (selectedQuestion.length >= 1) {
-=======
-    if (selectedQuestion.length > 1) {
->>>>>>> bb3c72f0e1d552236fdd4b3ac1973ffface7a4da
+
       console.log(`Your current score is: ${score}\n`);
     }
   }
@@ -815,33 +764,5 @@ while (true) {
     return;
   }
 }
-<<<<<<< HEAD
-
-
-
-
-
 
   
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> bb3c72f0e1d552236fdd4b3ac1973ffface7a4da
