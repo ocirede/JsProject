@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")({ sigint: true });
 const colors = require(`colors`);
 const welcomeNote = "WELCOME TO OUR QUIZ GAME";
-const information = `Get ready to test your wits and explore a world of diverse topics. In this engaging game, we have gathered a wide array of intriguing categories,from science and history to entertainment and beyond. Your mission? Choose a category and prove your expertise by answering a series of challenging questions.With Categories of Knowledge, you'll embark on a journey of curiosity, learning,and fun. Sharpen your mind, expand your horizons, and compete with friends or challenge yourself to become a category master.Dive into the world of trivia and see how your knowledge stacks up across a variety of subjects. Categories of Knowledge is your passport to endless entertainment and a chance to discover something new every time you play.So, are you up for the challenge? Lets begin the quest for knowledge and fun`;
+const information = `Are you ready to test your knowledge across three exciting categories: science, history, and entertainment? Whether you're a trivia novice or a seasoned expert, we've got you covered with three challenging difficulty levels: easy, medium, and advanced. Here's how it works: Each category and difficulty level features 5 questions. To progress to the next level, you'll need to answer more than 50% of the questions correctly in your current level. Think you have what it takes to conquer this quiz? Let's dive in and put your knowledge to the test!`;
 
 const gameIntroduction = `\n\n${welcomeNote.bold.brightYellow}\n\n${information.brightGreen}`;
 
@@ -728,6 +728,7 @@ console.log();
     //hecking whether users' answers are wrong and print message accordinly
     if (parseInt(answer) !== chosenQuestions.correctAnswer) {
       console.log(`Wrong answer`.red);
+      console.log()
       console.log(
         `The correct answer is the number ${chosenQuestions.correctAnswer}\n`
       );
